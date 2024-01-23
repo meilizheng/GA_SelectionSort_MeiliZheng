@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 
 namespace GA_SelectionSort_MeiliZheng 
@@ -84,3 +85,30 @@ namespace GA_SelectionSort_MeiliZheng
 
     }
 }
+
+
+
+//Pseudocode
+
+//Main:
+// Declare array
+// Call SelectionSort method with a random array
+
+//RandomArray:
+// Create random as new Random
+// Define the range of random numbers
+// Initialize an array with size 10
+// Create RandomArray as new integer array of size 10
+// Populate the array with random numbers within the specified range
+// Print the unsorted array
+// Return RandomArray
+
+//SelectionSort:
+// Outer loop to traverse the array
+// Inner loop to find the minimum element in the unsorted part of the array
+// Compare the current element with the element at the assumed minimum index
+// If a smaller element is found, update the minimum index
+// Swap the found minimum element with the element at the current outer loop index
+// Print the sorted array
+// Return the sorted array
+
